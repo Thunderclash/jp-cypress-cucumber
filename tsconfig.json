@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+   "esModuleInterop": true,
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"] // custom z https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/docs/faq.md#i-get-cannot-find-module-badeballcypress-cucumber-preprocessoresbuild
+    }
+  }
+}
